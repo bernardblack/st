@@ -1,9 +1,5 @@
 st is a simple terminal implementation for X.
 
-# **Preview**
-<img src="https://filedn.com/lndsHOIbWNoRqUhvg4xD1oh/rice/st-preview%2302.png"><br>
-<img src="https://filedn.com/lndsHOIbWNoRqUhvg4xD1oh/rice/st-preview%2304.png"><br><br>
-
 # **Patch Applied**
 + [st-alpha-0.8.5.diff](https://st.suckless.org/patches/alpha/st-alpha-20220206-0.8.5.diff)
 + [st-boxdraw-v2-0.8.5.diff](https://st.suckless.org/patches/boxdraw/st-boxdraw_v2-0.8.5.diff)
@@ -25,24 +21,3 @@ Ctrl + 0 | Reset Zoom
 Ctrl + Shift + Page_Up | Scroll Up
 Ctrl + Shift + Page_Down | Scroll Down
 ```
-
-# Requirements
-
-+ Void
-```
-xbps-install pkgconf pkgconf-devel libXft-devel libX11-devel libXinerama-devel
-```
-```
-Nerd Font JetBrains
-```
-# Install
-**Clone repo**
-```
-git clone https://github.com/gillgrite/st.git
-```
-**Build & Install**
-
-```
-./stclean
-```
-
